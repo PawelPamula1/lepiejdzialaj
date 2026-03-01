@@ -19,11 +19,11 @@ export default function QuizCTASection({
   socialProof,
 }: QuizCTASectionProps) {
   return (
-    <section className="relative py-20 lg:py-32 bg-[#eee2d7]">
+    <section className="relative py-20 lg:py-32 bg-[#07223a]">
       <div className="max-w-[1314px] mx-auto px-4 sm:px-8">
         <div className="max-w-3xl mx-auto text-center">
           {/* Heading */}
-          <h2 className="text-4xl lg:text-5xl font-bold text-black leading-tight mb-12">
+          <h2 className="text-4xl lg:text-5xl font-bold text-[#F3F3F1] leading-tight mb-12">
             {heading}
           </h2>
 
@@ -31,7 +31,7 @@ export default function QuizCTASection({
           <ul className="space-y-4 mb-8 text-left max-w-xl mx-auto">
             {benefits.map((benefit, index) => (
               <li key={index} className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-black flex items-center justify-center mt-1">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#FA6E21] flex items-center justify-center mt-1">
                   <svg
                     className="w-4 h-4 text-white"
                     fill="none"
@@ -46,7 +46,7 @@ export default function QuizCTASection({
                     />
                   </svg>
                 </div>
-                <span className="text-lg text-black/80 leading-relaxed">
+                <span className="text-lg text-[#F3F3F1]/90 leading-relaxed">
                   {benefit}
                 </span>
               </li>
@@ -54,10 +54,10 @@ export default function QuizCTASection({
           </ul>
 
           {/* Lead magnet callout */}
-          <div className="bg-white/60 backdrop-blur-sm border border-black/10 rounded-2xl p-6 mb-8 max-w-xl mx-auto">
+          <div className="bg-[#2a2d34] backdrop-blur-sm border border-[#FA6E21]/20 rounded-2xl p-6 mb-8 max-w-xl mx-auto">
             <div className="flex items-center justify-center gap-3">
               <svg
-                className="w-5 h-5 text-black flex-shrink-0"
+                className="w-5 h-5 text-[#FA6E21] flex-shrink-0"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -69,7 +69,7 @@ export default function QuizCTASection({
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
-              <p className="text-black font-semibold">{leadMagnet}</p>
+              <p className="text-[#F3F3F1] font-semibold">{leadMagnet}</p>
             </div>
           </div>
 
@@ -77,13 +77,13 @@ export default function QuizCTASection({
           <div className="space-y-4">
             <Link
               href={cta.href}
-              className="inline-flex items-center justify-center px-12 py-4 text-lg font-semibold text-white bg-black rounded-[3rem] hover:bg-black/90 transition-all duration-300"
+              className="inline-flex items-center justify-center px-12 py-4 text-lg font-semibold text-white bg-[#f75800] rounded-[3rem] hover:bg-[#FA6E21] transition-all duration-300 shadow-xl shadow-[#f75800]/30"
             >
               {cta.label}
             </Link>
 
             {/* Social proof */}
-            <p className="text-sm text-black/60">{socialProof}</p>
+            <p className="text-sm text-[#F3F3F1]/60">{socialProof}</p>
           </div>
         </div>
       </div>

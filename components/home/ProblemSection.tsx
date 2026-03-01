@@ -15,11 +15,11 @@ export default function ProblemSection({
   closing,
 }: ProblemSectionProps) {
   return (
-    <section className="relative py-20 lg:py-32 bg-white">
+    <section className="relative py-20 lg:py-32 bg-[#F0F5FA]">
       <div className="max-w-[1314px] mx-auto px-4 sm:px-8">
         {/* Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-black mb-6">
+          <h2 className="text-4xl lg:text-5xl font-bold text-[#111111] mb-6">
             {heading}
           </h2>
         </div>
@@ -29,13 +29,13 @@ export default function ProblemSection({
           {items.map((item, index) => (
             <div
               key={index}
-              className="bg-[#F0E9E0] rounded-2xl p-8 hover:shadow-sm transition-all duration-300"
+              className="bg-white rounded-2xl p-8 hover:shadow-lg hover:border-[#FA6E21]/20 border border-transparent transition-all duration-300"
             >
               {/* Emoji */}
               <div className="text-5xl mb-4">{item.emoji}</div>
 
               {/* Text */}
-              <p className="text-black/70 leading-relaxed font-medium">
+              <p className="text-[#111111]/70 leading-relaxed font-medium">
                 {item.text}
               </p>
             </div>
@@ -44,7 +44,7 @@ export default function ProblemSection({
 
         {/* Closing statement */}
         <div className="text-center">
-          <p className="text-2xl lg:text-3xl font-bold text-black">
+          <p className="text-2xl lg:text-3xl font-bold text-[#FA6E21]">
             {closing}
           </p>
         </div>
