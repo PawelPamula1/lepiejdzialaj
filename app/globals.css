@@ -2,12 +2,22 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #0f172a;
+  --foreground: #000000;
+  --color-sand: #eee2d7;
+  --color-warm: #F0E9E0;
+  --color-peach: #F0DCC9;
+  --color-brown: #cc835c;
+  --color-tan: #d4c4b0;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-sand: #eee2d7;
+  --color-warm: #F0E9E0;
+  --color-peach: #F0DCC9;
+  --color-brown: #cc835c;
+  --color-tan: #d4c4b0;
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
 }
