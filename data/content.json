@@ -1,0 +1,211 @@
+{
+  "site": {
+    "name": "Lepiej Działaj",
+    "tagline": "Działaj mądrzej. Każdego dnia.",
+    "url": "https://lepiejdzialaj.pl"
+  },
+  "navbar": {
+    "links": [
+      { "label": "Blog", "href": "/blog-i-porady/" },
+      { "label": "Quiz", "href": "/quiz/" },
+      { "label": "O mnie", "href": "#founder" }
+    ],
+    "cta": {
+      "label": "Pobierz poradnik",
+      "href": "#newsletter"
+    }
+  },
+  "hero": {
+    "badge": "Dla mężczyzn, którzy chcą działać mądrze",
+    "heading": "Wypadają Ci włosy? Dowiedz się, od czego naprawdę zacząć.",
+    "subheading": "Odpowiedz na 7 pytań i otrzymaj bezpłatny plan dopasowany do Twojego typu łysienia. Żadnych ogólników — tylko konkretne kroki.",
+    "cta": {
+      "label": "Zrób quiz — zajmie 3 minuty →",
+      "href": "https://lepiejdzialaj.pl/quiz/"
+    },
+    "trustPoints": ["Bezpłatnie", "Bez rejestracji", "Wyniki od razu"],
+    "image": ""
+  },
+  "problem": {
+    "heading": "Brzmi znajomo?",
+    "items": [
+      {
+        "emoji": "😤",
+        "text": "Kupiłeś drogie szampony, które nic nie dały"
+      },
+      {
+        "emoji": "😕",
+        "text": "Czytałeś sprzeczne porady i nie wiesz komu wierzyć"
+      },
+      {
+        "emoji": "⏳",
+        "text": "Odkładasz działanie, bo nie wiesz od czego zacząć"
+      },
+      {
+        "emoji": "🪞",
+        "text": "Widzisz coraz więcej skóry głowy i to Cię niepokoi"
+      }
+    ],
+    "closing": "Lepiej Działaj powstało właśnie dla Ciebie."
+  },
+  "quizCTA": {
+    "heading": "Co dostaniesz z quizu?",
+    "benefits": [
+      "Twój typ łysienia — androgenowe, stresowe, a może inne?",
+      "3 konkretne kroki dopasowane do Twojej sytuacji",
+      "Lista składników, które naprawdę działają na Twój przypadek"
+    ],
+    "leadMagnet": "Bezpłatny PDF: „Jak zatrzymać wypadanie włosów",
+    "cta": {
+      "label": "Zacznij quiz →",
+      "href": "https://lepiejdzialaj.pl/quiz/"
+    },
+    "socialProof": "Dołącz do 400+ mężczyzn, którzy już to zrobili"
+  },
+  "founder": {
+    "label": "Twórca Lepiej Działaj",
+    "name": "Arek",
+    "heading": "Cześć, tu Arek",
+    "paragraphs": [
+      "Przez lata próbowałem wszystkiego — drogich suplementów, cudownych szamponów, sprzecznych rad z internetu. Nic nie działało, albo działało za mało.",
+      "Dopiero kiedy zacząłem podchodzić do tego naukowo — łącząc składniki o udowodnionym działaniu z konsekwentną rutyną — zobaczyłem pierwsze efekty.",
+      "Lepiej Działaj to miejsce, gdzie dzielę się tym, co naprawdę działa. Bez ściemy, bez przepłacania, bez efektów ubocznych których się boisz."
+    ],
+    "images": {
+      "before": "/arek-przed.webp",
+      "after": "/arek-po.webp"
+    }
+  },
+  "transformations": {
+    "heading": "Inni już działają",
+    "items": [
+      {
+        "name": "Arek",
+        "method": "Metody naturalne + farmakoterapia",
+        "description": "Stosował metody naturalne (palma słabowa, olej z pestek dyni i wyciąg z rozmarynu) razem z derma roller i farmakoterapią.",
+        "duration": "2 lata (ostatnie 6 mies. tylko naturalne)",
+        "result": "Utrzymuje efekty bez farmakoterapii",
+        "images": {
+          "before": "/transformacja-arek-przed.webp",
+          "after": "/transformacja-arek-po.webp"
+        }
+      },
+      {
+        "name": "Piotr",
+        "method": "Redensyl® + ekstrakty roślinne",
+        "description": "Stosował pielęgnację z składnikami aktywnymi opartą na ekstraktach roślinnych z saw palmetto.",
+        "duration": "84 dni",
+        "result": "+10,8% włosów anagenowych, +17% gęstości",
+        "images": {
+          "before": "/transformacja-piotr-przed.webp",
+          "after": "/transformacja-piotr-po.webp"
+        }
+      },
+      {
+        "name": "Tomasz",
+        "method": "Saw palmetto + 5% minoksydyl + Derma Pen",
+        "description": "Stosował tabletki saw palmetto, spray z 5% minoksydylem i raz w tygodniu wykonywał zabieg Derma Pen 1.5 mm.",
+        "duration": "9 miesięcy",
+        "result": "Bez finasterydu — na własnych zasadach",
+        "images": {
+          "before": "/transformacja-tomasz-przed.webp",
+          "after": "/transformacja-tomasz-po.webp"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "heading": "Nie jesteś sam",
+    "items": [
+      {
+        "value": "1 na 2",
+        "description": "mężczyzn zauważy przerzedzenie przed 50. rokiem życia"
+      },
+      {
+        "value": "80%",
+        "description": "łysienia u mężczyzn ma podłoże genetyczne i można mu zapobiegać"
+      },
+      {
+        "value": "3–6 mies.",
+        "description": "to średni czas, po którym pojawiają się pierwsze widoczne efekty"
+      },
+      {
+        "value": "9 na 10",
+        "description": "facetów czuje się pewniej, gdy lepiej ogarnia włosy"
+      },
+      {
+        "value": "5 min",
+        "description": "tyle trwa wykonanie pierwszego, sensownego kroku — np. quizu"
+      }
+    ]
+  },
+  "blog": {
+    "heading": "Na start przeczytaj",
+    "cta": {
+      "label": "Zobacz wszystkie artykuły →",
+      "href": "/blog-i-porady/"
+    },
+    "posts": [
+      {
+        "title": "Jak rozpoznać swój typ łysienia i dobrać rozwiązanie",
+        "description": "Androgenowe, stresowe, plackowate — sprawdź, co Cię dotyczy.",
+        "date": "2025-09-01",
+        "href": "/typ-lysienia-u-mezczyzn/",
+        "image": "/blog-typ-lysienia.webp"
+      },
+      {
+        "title": "Jak zatrzymać wypadanie włosów? 5 najskuteczniejszych metod",
+        "description": "Od naturalnych olejów po minoksydyl — przegląd tego co naprawdę działa.",
+        "date": "2025-10-31",
+        "href": "/5-metod-na-lysienie-naturalne-i-medyczne-2025/",
+        "image": "/blog-5-metod.webp"
+      },
+      {
+        "title": "Kiedy zobaczysz efekty kuracji na włosy",
+        "description": "Miesiąc po miesiącu — jak wygląda realna regeneracja włosów.",
+        "date": "2025-11-22",
+        "href": "/kiedy-zobaczysz-efekty-kuracji-na-wlosy/",
+        "image": "/blog-efekty-kuracji.webp"
+      }
+    ]
+  },
+  "newsletter": {
+    "heading": "Krótkie porady co tydzień",
+    "description": "Dołącz do 200+ czytelników i odbierz bezpłatny PDF: „Jak zatrzymać wypadanie włosów i dobrać leczenie",
+    "form": {
+      "namePlaceholder": "Imię",
+      "emailPlaceholder": "Adres e-mail",
+      "submitLabel": "Zapisz się"
+    },
+    "disclaimer": "Żadnego spamu. Wypis jednym kliknięciem."
+  },
+  "footer": {
+    "links": {
+      "info": [
+        { "label": "Misja bloga", "href": "/misja-bloga/" },
+        { "label": "Kontakt", "href": "/kontakt/" }
+      ],
+      "legal": [
+        { "label": "Polityka prywatności", "href": "/polityka-prywatnosci/" },
+        { "label": "Regulamin sklepu", "href": "/regulamin-sklepu/" },
+        { "label": "Polityka wysyłki", "href": "/polityka-wysylki/" },
+        { "label": "Polityka zwrotów", "href": "/polityka-zwrotow/" }
+      ]
+    },
+    "social": [
+      {
+        "platform": "Facebook",
+        "href": "https://www.facebook.com/share/1KrmEcpUsN/"
+      },
+      {
+        "platform": "Instagram",
+        "href": "https://www.instagram.com/lepiej_dzialaj"
+      },
+      {
+        "platform": "YouTube",
+        "href": "https://www.youtube.com/@LepiejDzialaj"
+      }
+    ],
+    "copyright": "© 2026 Lepiej Działaj. Wszelkie prawa zastrzeżone."
+  }
+}
