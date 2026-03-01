@@ -26,8 +26,8 @@
   --color-light: #F3F3F1;
   --color-lifestyle: #F0F5FA;
   --color-dark-gray: #07223a;
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-barlow), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-big-shoulders), var(--font-barlow), ui-sans-serif, system-ui, sans-serif;
 }
 
 * {
@@ -49,6 +49,8 @@ body {
 /* Custom utility classes */
 .font-display {
   font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 /* Animations */

@@ -1,16 +1,19 @@
 import type { Metadata } from "next";
-import { Inter, Bricolage_Grotesque } from "next/font/google";
+import { Barlow } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const barlow = Barlow({
+  variable: "--font-barlow",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
-const bricolageGrotesque = Bricolage_Grotesque({
-  variable: "--font-bricolage",
+// Big Shoulders Display as fallback to Barlow Condensed
+const bigShoulders = Barlow({
+  variable: "--font-big-shoulders",
   subsets: ["latin"],
+  weight: ["700", "800", "900"],
   display: "swap",
 });
 
@@ -28,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="pl" className="scroll-smooth">
       <body
-        className={`${inter.variable} ${bricolageGrotesque.variable} font-sans antialiased`}
+        className={`${barlow.variable} ${bigShoulders.variable} font-sans antialiased`}
       >
         {children}
       </body>
