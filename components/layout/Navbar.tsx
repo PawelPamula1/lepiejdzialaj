@@ -100,7 +100,7 @@ export default function Navbar({ siteName, links, cta }: NavbarProps) {
 
         {/* Mobile menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 space-y-2 animate-fade-in">
+          <div className="md:hidden mt-4 pb-4 space-y-2 animate-fade-in bg-white rounded-2xl p-4 shadow-lg">
             {links.map((link, index) => (
               <Link
                 key={index}
