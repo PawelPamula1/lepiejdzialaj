@@ -20,7 +20,7 @@ export default function QuizCTASection({
 }: QuizCTASectionProps) {
   return (
     <section className="relative py-20 lg:py-32 bg-[#eee2d7]">
-      <div className="max-w-[1314px] mx-auto px-8">
+      <div className="max-w-[1314px] mx-auto px-4 sm:px-8">
         <div className="max-w-3xl mx-auto text-center">
           {/* Heading */}
           <h2 className="text-4xl lg:text-5xl font-bold text-black leading-tight mb-12">

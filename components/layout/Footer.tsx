@@ -16,7 +16,7 @@ interface FooterProps {
 export default function Footer({ siteName, links, social, copyright }: FooterProps) {
   return (
     <footer className="bg-[#eee2d7] border-t border-black/10">
-      <div className="max-w-[1314px] mx-auto px-8 py-16 lg:py-20">
+      <div className="max-w-[1314px] mx-auto px-4 sm:px-8 py-16 lg:py-20">
         {/* Top section */}
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}

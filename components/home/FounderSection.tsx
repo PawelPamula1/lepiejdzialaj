@@ -18,7 +18,7 @@ export default function FounderSection({
 }: FounderSectionProps) {
   return (
     <section id="founder" className="relative py-20 lg:py-32 bg-gradient-to-b from-white via-orange-50/20 to-white">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-8">
         <div className="grid lg:grid-cols-5 gap-12 lg:gap-16 items-center">
           {/* Left - Content */}
           <div className="lg:col-span-3 space-y-6">

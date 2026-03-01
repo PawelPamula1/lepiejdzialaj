@@ -54,7 +54,7 @@ export default function NewsletterSection({
       <div className="absolute top-0 left-0 w-96 h-96 bg-orange-500/20 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-orange-600/20 rounded-full blur-3xl" />
 
-      <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+      <div className="relative max-w-4xl mx-auto px-4 sm:px-8">
         <div className="text-center mb-12">
           {/* Icon */}
           <div className="inline-flex items-center justify-center w-16 h-16 bg-orange-500/20 rounded-2xl mb-6 border border-orange-500/30">

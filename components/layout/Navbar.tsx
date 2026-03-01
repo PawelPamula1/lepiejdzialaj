@@ -36,7 +36,7 @@ export default function Navbar({ siteName, links, cta }: NavbarProps) {
           : 'bg-transparent py-5'
       }`}
     >
-      <div className="max-w-[1314px] mx-auto px-8">
+      <div className="max-w-[1314px] mx-auto px-4 sm:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="text-xl font-bold text-black">

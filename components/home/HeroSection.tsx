@@ -19,7 +19,7 @@ export default function HeroSection({
 }: HeroSectionProps) {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-[#F0E9E0]">
-      <div className="relative max-w-[1314px] mx-auto px-8 py-32 lg:py-20 w-full">
+      <div className="relative max-w-[1314px] mx-auto px-4 sm:px-8 py-32 lg:py-20 w-full">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-20 items-center">
           {/* Left column - Content */}
           <div className="space-y-8 animate-fade-in">
